@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/NewGame.qml</file>
+        <file>qml/BoatPicker.qml</file>
+        <file>qml/MainButton.qml</file>
+        <file>qml/Chat.qml</file>
+        <file>qml/Game.qml</file>
+        <file>qml/Prepare.qml</file>
+        <file>qml/SoundSwitch.qml</file>
+        <file>js/Theme.js</file>
+        <file>pics/clock.png</file>
+    </qresource>
+</RCC>
