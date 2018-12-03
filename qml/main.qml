@@ -33,6 +33,10 @@ Window {
     Connections {
         target: window.item
         onHandlerLoader: {
+            if (page == "NewGame.qml") {
+                root.battlefield = [["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"]];
+                root.battlefield2 = [["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"],["v","v","v","v","v","v","v","v","v","v"]];
+            }
             window.source = page;
         }
     }
