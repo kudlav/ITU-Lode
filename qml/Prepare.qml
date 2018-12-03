@@ -45,7 +45,7 @@ Rectangle {
 
                 Text {
                     id: header
-                    text: qsTr("Čekáme na vašeho nepřítele")
+                    text: qsTr("Čekáme na umístění lodí nepřítelem")
                     anchors.top: parent.top
                     font.bold: true
                     font.pointSize: 30

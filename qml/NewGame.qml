@@ -78,13 +78,20 @@ Rectangle {
             }
 
             Text {
-                id: text1
                 text: qsTr("Verze 1.0")
                 anchors.left: parent.left
                 anchors.leftMargin: 10
                 anchors.bottom: parent.bottom
                 anchors.bottomMargin: 5
                 font.pixelSize: 12
+            }
+            Text {
+                text: qsTr("Okno můžete kdykoliv skrýt stiskem klávesy ESC")
+                anchors.right: parent.right
+                anchors.rightMargin: 10
+                anchors.bottom: parent.bottom
+                anchors.bottomMargin: 5
+                font.pixelSize: 15
             }
         }
     }
