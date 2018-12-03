@@ -18,6 +18,13 @@ Window {
 
     Loader {
         id: window
+        focus: true
+        Keys.onPressed: {
+            if (event.key == Qt.Key_Escape) {
+                console.log("Hide");
+                root.visibility = 3;
+            }
+        }
         source: "NewGame.qml"
     }
 
